@@ -1,0 +1,14 @@
+.slider-text {
+    background-color: #d44000;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    .carousel-item {
+        width: 100%;
+        .exp {
+            width: 60%;
+            margin: auto;
+            padding-top: 40px;
+        }
+    }
+}

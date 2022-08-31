@@ -1,0 +1,18 @@
+header {
+    .div-logo {
+        background-color: #212529;
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+    }
+    nav {
+        .navbar-nav {
+            .nav-item {
+                &:hover {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

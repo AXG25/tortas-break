@@ -1,0 +1,19 @@
+.background-image {
+    background-image: url(/images/background-img.jpg);
+    background-repeat: no-repeat;
+    .logo2 {
+        width: 240px;
+    }
+}
+
+.subtitulo {
+    color: #d44000;
+}
+
+.cartas {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

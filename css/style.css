@@ -1,88 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-
-.div-logo{
-    background-color: #212529;
-}
-
-.logo{
+header .div-logo {
+  background-color: #212529; }
+  header .div-logo .logo {
     width: 80px;
-    height: auto;
-}
+    height: auto; }
 
-.logo2{
-    width: 240px;
-}
+header nav .navbar-nav .nav-item:hover {
+  font-size: 17px; }
 
-.banner img{
-    width: 320px ;
-}
+.banner .background-image {
+  background-image: url(/images/background-img.jpg);
+  background-repeat: no-repeat; }
+  .banner .background-image img {
+    width: 320px; }
 
-.banner h2{
-    width: 60%;
-}
+.banner h2 {
+  width: 60%; }
 
-.background-image{
-    background-image: url(../images/background-img.jpg);
-    background-repeat: no-repeat;
-}
-
-.background-image2{
-}
-
-.card{
-    margin-top: 20px;
-}
-
-.card-body{
-    display: flex ;
+.card {
+  margin-top: 20px; }
+  .card .card-body {
+    display: flex;
     flex-direction: column;
-    background-color: #d44000;
-    
-}
+    background-color: #d44000; }
+    .card .card-body hr {
+      color: white;
+      background-color: white;
+      height: 8px;
+      width: 60%;
+      margin: auto; }
+    .card .card-body a {
+      text-decoration: none; }
 
-.card-body hr{
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-    height: 8px;
-    width: 60%;
-    margin:auto;
-}
+.slider-text {
+  background-color: #d44000;
+  height: 200px;
+  display: flex;
+  justify-content: center; }
+  .slider-text .carousel-item {
+    width: 100%; }
+    .slider-text .carousel-item .exp {
+      width: 60%;
+      margin: auto;
+      padding-top: 40px; }
 
-.card-body a{
-    text-decoration: none;
-}
+.background-image {
+  background-image: url(/images/background-img.jpg);
+  background-repeat: no-repeat; }
+  .background-image .logo2 {
+    width: 240px; }
 
-.slider-text{
-    background-color: #d44000;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-   
-}
+.subtitulo {
+  color: #d44000; }
 
-.carousel-item{
-    width: 100%;
-}
-
-.exp{
-    width: 60%;
-    margin: auto;
-    padding-top: 40px;
-}
-
-.subtitulo{
-    color: #d44000;
-}
-
-.cartas{
-    width: 80%;
-    margin:40px auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+.cartas {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }

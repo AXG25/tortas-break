@@ -1,0 +1,18 @@
+.card {
+    margin-top: 20px;
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        background-color: #d44000;
+        hr {
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            height: 8px;
+            width: 60%;
+            margin: auto;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
